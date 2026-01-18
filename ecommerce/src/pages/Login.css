@@ -11,6 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px;
 }
 
 .login-wrapper {
@@ -55,9 +56,28 @@
   color: inherit;
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 768px) {
   .login-wrapper {
-    width: 75%;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .login-container {
+    padding: 15px;
+  }
+
+  .login-wrapper {
+    width: 90%;
+    padding: 20px 15px;
+  }
+
+  .login-title {
+    font-size: 20px;
+  }
+
+  .login-button {
+    width: 100%;
   }
 }
 

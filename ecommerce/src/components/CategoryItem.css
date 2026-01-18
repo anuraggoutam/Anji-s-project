@@ -26,6 +26,8 @@
 .category-item-title {
   color: white;
   margin-bottom: 20px;
+  text-align: center;
+  padding: 0 10px;
 }
 
 .category-item-button {
@@ -37,9 +39,30 @@
   font-weight: 600;
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 768px) {
+  .category-item-container {
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .category-item-container {
+    height: 30vh;
+    margin: 5px 0;
+  }
+
   .category-item-image {
-    height: 20vh;
+    height: 100%;
+  }
+
+  .category-item-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .category-item-button {
+    padding: 8px;
+    font-size: 14px;
   }
 }
 
