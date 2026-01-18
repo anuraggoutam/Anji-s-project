@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-left">
-        <h1 className="footer-logo">LAMA.</h1>
+        <h1 className="footer-logo">Ecom Store.</h1>
         <p className="footer-desc">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
@@ -58,7 +58,7 @@ const Footer = () => {
           <Phone style={{marginRight:"10px"}}/> +1 234 56 78
         </div>
         <div className="footer-contact-item">
-          <MailOutline style={{marginRight:"10px"}} /> contact@lama.dev
+          <MailOutline style={{marginRight:"10px"}} /> contact@ecomstore.dev
         </div>
         <img src="https://i.ibb.co/Qfvn4z6/payment.png" alt="payment" className="footer-payment" />
       </div>
